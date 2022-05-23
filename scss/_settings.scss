@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+	font-family: Rubik;
+}
+
+.wrapper {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.__container {
+	max-width: 1088px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.main {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+@media (max-width: 700px) {
+	.__container {
+		padding: 10px;
+	}
+}

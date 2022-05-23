@@ -1,1 +1,5 @@
-# Project_corona
+# GoCorona
+
+---
+
+Second web site, with using scss.

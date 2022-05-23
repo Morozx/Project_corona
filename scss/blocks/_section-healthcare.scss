@@ -1,0 +1,97 @@
+.healthcare-container {
+	margin-bottom: 46px;
+}
+.block-text__title {
+	text-align: center;
+	& span {
+		color: #ec5863;
+	}
+}
+.block-text__text {
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+//*******************************
+.health-card__container {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 75px;
+	flex-wrap: wrap;
+}
+.health-card__img {
+	margin-bottom: 23px;
+	margin-top: 31px;
+}
+.health-card__title {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 138.5%;
+}
+
+.health-card__item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 278.17px;
+	height: 276.52px;
+	background: #ffffff;
+	box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+	border-radius: 8px;
+	font-size: 16px;
+	line-height: 138.5%;
+	letter-spacing: 0.08em;
+	margin-bottom: 30px;
+}
+
+.health-card__decor {
+	position: absolute;
+	background: #ec5863;
+	z-index: -1;
+}
+.health-card__decor-1 {
+	transform: rotate(-30deg);
+	width: 65.75px;
+	height: 65.75px;
+	left: -22px;
+	top: 235px;
+	border-radius: 16px;
+}
+.health-card__decor-2 {
+	width: 96.96px;
+	height: 96.96px;
+	left: 217px;
+	top: 1px;
+	border-radius: 30px;
+	transform: rotate(105deg);
+}
+.health-card__decor-3 {
+	width: 127.47px;
+	height: 127.47px;
+	left: 225px;
+	top: 183px;
+	border-radius: 30px;
+	transform: rotate(-30deg);
+}
+.health-card__decor-4 {
+	width: 65.75px;
+	height: 65.75px;
+	left: 230px;
+	top: -28px;
+	border-radius: 16px;
+	transform: rotate(-30deg);
+}
+
+//****************************************
+@media (max-width: 600px) {
+	.health-card__item {
+		width: 100%;
+	}
+
+	.health-card__container {
+		align-items: center;
+	}
+}
